@@ -1,6 +1,5 @@
 package mod.omo.mixin;
 
-import mod.omo.client.PropertyAPI;
 import mod.omo.client.property.BiomeProperty;
 import mod.omo.client.property.InstrumentProperty;
 import net.minecraft.client.render.item.property.select.SelectProperties;
@@ -20,8 +19,8 @@ public class SelectPropertiesMixin {
 
     @Inject(method = "bootstrap", at = @At("TAIL"))
     private static void omo$addProperties(CallbackInfo ci) {
-        ID_MAPPER.put(Identifier.ofVanilla("instrument"), InstrumentProperty.TYPE);
-        ID_MAPPER.put(Identifier.ofVanilla("biome"), BiomeProperty.TYPE);
+        ID_MAPPER.put(Identifier.of("extra:instrument"), InstrumentProperty.TYPE);
+        ID_MAPPER.put(Identifier.of("extra:biome"), BiomeProperty.TYPE);
 
     }
 }

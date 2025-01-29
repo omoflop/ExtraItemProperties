@@ -3,9 +3,13 @@
   "id": "extraitemproperties",
   "version": "${version}",
   "name": "ExtraItemProperties",
-  "description": "Reintroduces future item properties to 1.21.4",
+  "description": "Introduces new item properties for resource pack makers",
   "authors": ["omoflop"],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/omoflop/ExtraItemProperties",
+    "sources": "https://github.com/omoflop/ExtraItemProperties",
+    "issues": "https://github.com/omoflop/ExtraItemProperties/issues"
+  },
   "license": "unlicense",
   "icon": "assets/extraitemproperties/icon.png",
   "environment": "client",
@@ -20,5 +24,12 @@
   "depends": {
     "fabricloader": ">=0.16.10",
     "minecraft": "1.21.4"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.wiki": "https://github.com/omoflop/ExtraItemProperties/wiki"
+      }
+    }
   }
 }
