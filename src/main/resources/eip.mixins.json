@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mod.omo.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "ItemModelManagerMixin",
+    "SelectPropertiesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

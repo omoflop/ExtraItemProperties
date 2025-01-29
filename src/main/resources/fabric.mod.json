@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "extraitemproperties",
+  "version": "${version}",
+  "name": "ExtraItemProperties",
+  "description": "Reintroduces future item properties to 1.21.4",
+  "authors": ["omoflop"],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/extraitemproperties/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "mod.omo.client.EIPClient"
+    ]
+  },
+  "mixins": [
+    "eip.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4"
+  }
+}
