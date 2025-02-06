@@ -1,4 +1,4 @@
-package mod.omo.client.property;
+package mod.omo.client.property.select;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
